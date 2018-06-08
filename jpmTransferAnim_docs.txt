@@ -1,0 +1,37 @@
+Transfer Animation documentation
+
+CopyUser Attrs's Button
+	Copies user defined attributes from first picked source object to second picked 
+	destination object.
+
+Transfer Button
+	Copies animation and values (include recreating user defined attributes) from 
+	first picked source object to second picked destination object
+
+Batch1 = "ABAB" Button
+	Copies animation and values from picked objects in an ABAB pattern
+
+Batch2 = "AABB" Button
+	Copies animation and values from objects previously picked using PickSources and 
+	PickDests button
+
+Pick Sources Button
+	Designates picked objects as the sources to copy animation and values from with the 
+	Batch2 procedure
+
+Pick Dests Button
+	Designates picked objects as the destinations to copy animation and values to with 
+	the Batch2 procedure
+
+Bake To Locs Button
+	For every picked object, creates a locator named [object]_loc and copies user defined
+	attributes, animation, and values onto that locator. Groups all locators it creates
+
+Whole Curves/Current Values radio
+
+Attributes to Transfer checkbox array
+	Transform XYZ
+	Rotate XYZ
+	Scale XYZ
+	Visibility
+	User Defined
